@@ -1,7 +1,6 @@
 class Solution:
     def findRestaurant(self, list1: List[str], list2: List[str]) -> List[str]:
         hash1={}
-        hash2={}
         l=[]
         for i in range(len(list1)):
             if list1[i] in list2:  
